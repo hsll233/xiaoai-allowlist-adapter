@@ -1,4 +1,4 @@
-# 小爱名单适配 / XiaoAi Allowlist Adapter
+# 小爱白名单解除 / XiaoAi Allowlist Adapter
 
 基于 LSPosed 的小爱官方智控适配实验模块。当前版本 **0.20**。
 
@@ -47,3 +47,4 @@ Windows PowerShell 构建需要 JDK 21、Android SDK Build Tools（含 aapt2、D
 签名密码由 apksigner 交互提示输入。自行构建使用自己的密钥，不能覆盖由另一密钥签名的已安装版本。发布包中的 APK 是此前已签名并在唯一测试手机加载验证的成品；参数化构建脚本尚未在全新构建环境复验。
 
 此仓库不含手机日志、账号数据、令牌、设备序列号、签名私钥或官方应用 APK。项目处于实验阶段，与小米官方无关联。
+
