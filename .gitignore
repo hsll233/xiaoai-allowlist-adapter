@@ -1,0 +1,11 @@
+classes/
+dex/
+build-helpers/
+compiled.zip
+unsigned.apk
+aligned.apk
+d8-args.txt
+*.jks
+*.keystore
+*.log
+local.properties

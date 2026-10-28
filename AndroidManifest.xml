@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.codex.xiaoaiallowlist" android:versionCode="20" android:versionName="0.20">
+  <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="36" />
+  <queries><package android:name="com.miui.voiceassist"/><package android:name="org.lsposed.manager"/></queries>
+  <application android:label="小爱名单适配" android:allowBackup="false" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+    <meta-data android:name="xposedmodule" android:value="true" />
+    <meta-data android:name="xposeddescription" android:value="独立适配客户端应用窗口名单，保留官方规划与执行。" />
+    <meta-data android:name="xposedminversion" android:value="82" />
+    <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    <provider android:name=".SettingsProvider" android:authorities="local.codex.xiaoaiallowlist.settings" android:exported="true" android:grantUriPermissions="false" />
+    <activity android:name=".MainActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+</manifest>
+
+
+
+
+
+
+
+
+
